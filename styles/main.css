@@ -11,7 +11,7 @@ aside {
     color: black;
 }
 
-img {
+aside img {
     width: 200px;
     height: auto;
     border: 1rem;
@@ -48,6 +48,6 @@ h1 {
 
 footer {
     margin-top: auto;
-    border-top: auto;
+    border-top: 0;
     text-align: center;
 }
