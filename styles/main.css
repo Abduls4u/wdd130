@@ -1,3 +1,7 @@
+main {
+    max-width: 300px;
+}
+
 aside {
     width: 100%;
     margin: 1.5rem ;
@@ -5,6 +9,14 @@ aside {
     padding: 1px;
     background-color: #fefefe;
     color: black;
+}
+
+img {
+    width: 200px;
+    height: auto;
+    border: 1rem;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 2);
 }
 
 main img {
@@ -17,14 +29,25 @@ main img {
 
 }
 
-aside img {
-    width: 200px;
-    height: auto;
-}
-
 p {
     padding: 0;
     font-size: 0.95rem;
     color: #333;
     line-height: 1.6;
+}
+
+nav {
+    color: #0077cc;
+    display: flex;
+    padding: 0;
+}
+
+h1 {
+    color: darkslategray;
+}
+
+footer {
+    margin-top: auto;
+    border-top: auto;
+    text-align: center;
 }
