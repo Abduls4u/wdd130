@@ -40,7 +40,7 @@ nav, a {
     color: #0077cc;
     display: flex;
     padding: 0;
-    background-color: gray; 
+    background-color: 0; 
 }
 
 h1 {
