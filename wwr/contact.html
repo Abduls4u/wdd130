@@ -24,65 +24,70 @@
     
     <main>
         <section class="company-info">
-            <br>
-            <h2>Get in Touch</h2>
-            <p><strong>Address:</strong> 123 Ilorin, Kwara, Nigeria</p>
-            <p><strong>Phone:</strong> (234) 2302 393 39</p>
-            <p><strong>Email:</strong> contact@abdulsomad.rafting.com</p>
+        <h1>Contact Abdulsomad's Rafting Company</h1>
+        <p><strong>Address:</strong> 123 River Run Lane, Rapidsville, CO 80435</p>
+        <p><strong>Phone:</strong> (123) 456-7890</p>
+        <p><strong>Email:</strong> contact@raftingadventures.com</p>
 
-            <div class="map-container">
-            <iframe
-                src="https://www.google.com/maps/embed?pb=..."
-                width="600"
-                height="450"
-                allowfullscreen=""
-                loading="lazy"
-                referrerpolicy="no-referrer-when-downgrade">
-            </iframe>
-            </div>
-        </section>
+        <div class="map-container">
+        <iframe
+            src="https://www.google.com/maps/embed?pb=..."
+            width="600"
+            height="450"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade">
+        </iframe>
+        </div>
+    </section>
 
-        <section class="team">
-            <h2>Meet Our Team</h2>
-            <figure>
-            <img src="images/employee1.jpeg" alt="Smiling employee">
-            <figcaption>Jane Doe – Reservation Specialist</figcaption>
-            </figure>
-            <figure>
-            <img src="images/employee2.jpeg" alt="Smiling employee">
-            <figcaption>Mike Rapids – Rafting Guide</figcaption>
-            </figure>
-            <figure>
-            <img src="images/employee3.jpeg" alt="Smiling employee">
-            <figcaption>Sara Streams – Guest Services</figcaption>
-            </figure>
-        </section>
+    <section class="team">
+        <h2>Meet Our Team</h2>
+        <figure>
+        <img src="images/employee1.jpeg" alt="Smiling employee">
+        <figcaption>Jane Doe – Reservation Specialist</figcaption>
+        </figure>
+        <figure>
+        <img src="images/employee2.jpeg" alt="Smiling employee">
+        <figcaption>Mike Rapids – Rafting Guide</figcaption>
+        </figure>
+        <figure>
+        <img src="images/employee3.jpeg" alt="Smiling employee">
+        <figcaption>Sara Stream – Guest Services</figcaption>
+        </figure>
+    </section>
 
-        <section class="contact-form">
-            <h2>Contact Form</h2>
-            <form>
-            <label for="username">Full Name:</label>
-            <input type="text" id="username" name="username" required>
+    <section class="contact-form">
+        <h2>Contact Form</h2>
+        <form>
+        <label for="username">Full Name:</label>
+        <input type="text" id="username" name="username" required>
 
-            <label for="email">Email Address:</label>
-            <input type="email" id="email" name="email" required>
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
 
-            <fieldset>
-                <legend>Purpose of Message:</legend>
-                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
-                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
-                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
-            </fieldset>
+        <fieldset>
+            <legend>Purpose of Message:</legend>
+            <input type="radio" id="purpose-general" name="purpose" value="general" required>
+            <label for="purpose-general">General Inquiry</label><br>
 
-            <label for="message">Your Message:</label>
-            <textarea id="message" name="message" rows="5" required></textarea>
+            <input type="radio" id="purpose-reservation" name="purpose" value="reservation">
+            <label for="purpose-reservation">Reservation Question</label><br>
 
-            <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+            <input type="radio" id="purpose-suggestion" name="purpose" value="suggestion">
+            <label for="purpose-suggestion">Website Suggestion</label>
+        </fieldset>
 
-            <button type="submit">Send Message</button>
-            </form>
-        </section>
-    </main>
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="5" required></textarea>
+
+        <input type="checkbox" id="subscribe" name="subscribe">
+        <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+        <button type="submit">Send Message</button>
+    </form>
+  </section>
+</main>
     <br>
     <footer>
         <p>&copy;2025 Abdulsomad Rafting Company, Abdulsalam Abdulsomad</p>
