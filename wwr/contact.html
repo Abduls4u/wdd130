@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Contact page for Abdulsomad's Rafting Company, where you can reach us for inquiries and bookings.">
+    <meta name="author" content="Abdulsalam Abdulsomad .A.">
+    <title>Contact Us - Abdulsomad's Rafting Company</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="styles/rafting.css">
+    <link href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@400;700;900&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <img src="images/z-raftingcompas.jpg" alt="Rafting Company Logo" width="80">
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="about.html">About Us</a> 
+            <a href="trips.html">Trips</a>
+            <a href="contact.html">Contact Us</a>
+        </nav>
+    </header>
+    
+    <main>
+        <section class="company-info">
+            <br>
+            <h2>Get in Touch</h2>
+            <p><strong>Address:</strong> 123 Ilorin, Kwara, Nigeria</p>
+            <p><strong>Phone:</strong> (234) 2302 393 39</p>
+            <p><strong>Email:</strong> contact@abdulsomad.rafting.com</p>
+
+            <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=..."
+                width="600"
+                height="450"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+            </div>
+        </section>
+
+        <section class="team">
+            <h2>Meet Our Team</h2>
+            <figure>
+            <img src="images/employee1.jpeg" alt="Smiling employee">
+            <figcaption>Jane Doe – Reservation Specialist</figcaption>
+            </figure>
+            <figure>
+            <img src="images/employee2.jpeg" alt="Smiling employee">
+            <figcaption>Mike Rapids – Rafting Guide</figcaption>
+            </figure>
+            <figure>
+            <img src="images/employee3.jpeg" alt="Smiling employee">
+            <figcaption>Sara Streams – Guest Services</figcaption>
+            </figure>
+        </section>
+
+        <section class="contact-form">
+            <h2>Contact Form</h2>
+            <form>
+            <label for="username">Full Name:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email" required>
+
+            <fieldset>
+                <legend>Purpose of Message:</legend>
+                <label><input type="radio" name="purpose" value="general" required> General Inquiry</label>
+                <label><input type="radio" name="purpose" value="reservation"> Reservation Question</label>
+                <label><input type="radio" name="purpose" value="suggestion"> Website Suggestion</label>
+            </fieldset>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" rows="5" required></textarea>
+
+            <label><input type="checkbox" name="subscribe"> Please subscribe me to the monthly newsletter</label>
+
+            <button type="submit">Send Message</button>
+            </form>
+        </section>
+    </main>
+    <br>
+    <footer>
+        <p>&copy;2025 Abdulsomad Rafting Company, Abdulsalam Abdulsomad</p>
+        <nav class="socialmedia">
+            <a href="https://facebook.com">
+              <img src="images/fb.svg" height="40" width="40" alt="Facebook">
+            </a>
+            <a href="https://x.com">
+              <img src="images/x.svg" height="40" width="40" alt="X">
+            </a>
+            <a href="https://instagram.com">
+              <img src="images/ig.svg" height="40" width="40" alt="Instagram">
+            </a>
+        </nav>
+    </footer>
+</body>
+</html>
